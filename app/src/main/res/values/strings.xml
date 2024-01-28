@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">IITI Time Table App</string>
+    <string name="iiti_timetable">IITI Time Table</string>
+    <string name="branch_cse">Computer Science and Engineering</string>
+    <string name="branch_ee">Electrical Engineering</string>
+    <string name="branch_me">Mechanical Engineering</string>
+    <string name="branch_ce">Civil Engineering</string>
+    <string name="branch_mems">Metallurgical Engineering and Material Sciences</string>
+
+</resources>
