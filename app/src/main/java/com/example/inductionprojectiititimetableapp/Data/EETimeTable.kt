@@ -47,7 +47,7 @@ val EE258Me1 = Lecture(
 
 val EEMonday = LectureList(
     listOf(EE206M, EE202M, EE208M, EE256Me2, EE258Me1),
-    LocalDate.of(2024,1,29).dayOfWeek,
+    LocalDate.of(2024,1,1).dayOfWeek,
     "Electrical Engineering",
     21
 )
@@ -72,7 +72,7 @@ val EE206T = Lecture(
 
 val EETuesday = LectureList(
     listOf(EE204T, EE206T, MA204),
-    LocalDate.of(2024,1,29).dayOfWeek,
+    LocalDate.of(2024,1,2).dayOfWeek,
     "Electrical Engineering",
     22
 )
@@ -113,7 +113,7 @@ val EE256We1 = Lecture(
 
 val EEWednesday = LectureList(
     listOf(EE204W, EE202W, PublicLectureW , EE254We2, EE256We1),
-    LocalDate.of(2024,1,29).dayOfWeek,
+    LocalDate.of(2024,1,3).dayOfWeek,
     "Electrical Engineering",
     23
 )
@@ -154,7 +154,7 @@ val MA204EETh = Lecture(
 
 val EEThursday = LectureList(
     listOf(EE202Th, EE204Th, EE208Th, MA204EETh, MA204),
-    LocalDate.of(2024,1,29).dayOfWeek,
+    LocalDate.of(2024,1,4).dayOfWeek,
     "Electrical Engineering",
     24
 )
@@ -187,7 +187,7 @@ val EE202F = Lecture(
 
 val EEFriday = LectureList(
     listOf(EE206F, EE208F, EE202F),
-    LocalDate.of(2024,1,29).dayOfWeek,
+    LocalDate.of(2024,1,5).dayOfWeek,
     "Electrical Engineering",
     25
 )
@@ -196,7 +196,7 @@ val EEFriday = LectureList(
 
 val EESaturday = LectureList(
     listOf(Holiday),
-    LocalDate.of(2024,1,29).dayOfWeek,
+    LocalDate.of(2024,1,6).dayOfWeek,
     "Electrical Engineering",
     26
 )

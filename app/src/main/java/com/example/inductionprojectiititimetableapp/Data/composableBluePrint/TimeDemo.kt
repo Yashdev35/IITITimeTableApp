@@ -19,7 +19,7 @@ fun Main(){
         LocalDate.of(2024,1,1).dayOfWeek
     }
     var a = i < z
-    Text(text = (Day).toString())
+    Text(text = (Day+1).toString())
 }
 @Preview(showBackground = true)
 @Composable

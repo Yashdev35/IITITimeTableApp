@@ -55,7 +55,7 @@ val ME258Mm1 = Lecture(
 
 val MEMonday = LectureList(
     listOf(ME208M, ME206M, ME202M, HS213M, ME254Mm2, ME258Mm1),
-    LocalDate.of(2024,1,29).dayOfWeek,
+    LocalDate.of(2024,1,1).dayOfWeek,
     "Mechanical Engineering",
     11
 )
@@ -96,7 +96,7 @@ val ME258Tm3 = Lecture(
 
 val METuesday = LectureList(
     listOf(ME202T, ME204T, ME208T, MA204 ,ME258Tm3),
-    LocalDate.of(2024,1,29).dayOfWeek,
+    LocalDate.of(2024,1,2).dayOfWeek,
     "Mechanical Engineering",
     12
 )
@@ -137,7 +137,7 @@ val ME254Wm1 = Lecture(
 
 val MEWednesday = LectureList(
     listOf(ME204W, ME206W, PublicLectureW, HS213W, ME254Wm1),
-    LocalDate.of(2024,1,29).dayOfWeek,
+    LocalDate.of(2024,1,3).dayOfWeek,
     "Mechanical Engineering",
     13
 )
@@ -178,7 +178,7 @@ val MA204ME = Lecture(
 
 val METThursday = LectureList(
     listOf(ME206Th, ME204Th, ME202Th, MA204, MA204ME),
-    LocalDate.of(2024,1,29).dayOfWeek,
+    LocalDate.of(2024,1,4).dayOfWeek,
     "Mechanical Engineering",
     14
 )
@@ -227,7 +227,7 @@ val ME258Fm2 = Lecture(
 
 val MEFriday = LectureList(
     listOf(ME208F, ME202F, ME206F, HS213F, ME258Fm2),
-    LocalDate.of(2024,1,29).dayOfWeek,
+    LocalDate.of(2024,1,5).dayOfWeek,
     "Mechanical Engineering",
     15
 )
@@ -236,7 +236,7 @@ val MEFriday = LectureList(
 
 val MESaturday = LectureList(
     listOf(Holiday),
-    LocalDate.of(2024,1,29).dayOfWeek,
+    LocalDate.of(2024,1,6).dayOfWeek,
     "Mechanical Engineering",
     16
 )

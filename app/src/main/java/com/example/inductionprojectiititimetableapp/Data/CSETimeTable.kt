@@ -35,12 +35,16 @@ val CS254M= Lecture(
 )
 
 val CSEMonday = LectureList(
-    listOf(CS204M, CS202M, CS208M, CS254M),
-    LocalDate.of(2024, 1, 29).dayOfWeek,
-    "Computer Science and Engineering",
-    1
+    lectureList = listOf(CS204M, CS202M, CS208M, CS254M),
+    day = LocalDate.of(2024, 1, 1).dayOfWeek,
+    branchName = "Computer Science and Engineering",
+    id = 1
 )
+
+
 // MONDAY of CSE
+
+
 val CS206T= Lecture(
     lectureType = "Theory",
     lectureStartTime = LocalTime.of(10,30),
@@ -75,10 +79,12 @@ val MA204CST= Lecture(
 
 val CSETuesday = LectureList(
     listOf(CS206T, CS204T, MA204, MA204CST),
-    LocalDate.of(2024, 1, 29).dayOfWeek,
+    LocalDate.of(2024, 1, 2).dayOfWeek,
     "Computer Science and Engineering",
     2
 )
+
+
 // TUESDAY of CSE
 
 val CS206W= Lecture(
@@ -115,10 +121,12 @@ val CS256W= Lecture(
 
 val CSEWednesday = LectureList(
     listOf(CS206W, CS202W, PublicLectureW, CS256W),
-    LocalDate.of(2024, 1, 29).dayOfWeek,
+    LocalDate.of(2024, 1, 3).dayOfWeek,
     "Computer Science and Engineering",
     3
 )
+
+
 // WEDNESDAY of CSE
 
 
@@ -140,7 +148,7 @@ val CS208TH= Lecture(
 
 val CSEThursday = LectureList(
     listOf(CS206TH, CS208TH, MA204),
-    LocalDate.of(2024, 1, 29).dayOfWeek,
+    LocalDate.of(2024, 1, 4).dayOfWeek,
     "Computer Science and Engineering",
     4
 )
@@ -183,7 +191,7 @@ val CS258F= Lecture(
 
 val CSEFriday = LectureList(
     listOf(CS204F, CS208F, CS202F, CS258F),
-    LocalDate.of(2024, 1, 29).dayOfWeek,
+    LocalDate.of(2024, 1, 5).dayOfWeek,
     "Computer Science and Engineering",
     5
 )
@@ -194,7 +202,7 @@ val CSEFriday = LectureList(
 
 
 val Holiday= Lecture(
-    lectureType = "Theory",
+    lectureType = "Relax",
     lectureStartTime = LocalTime.of(0,0),
     lectureEndTime = LocalTime.of(23,59),
     lectureVenue = "Where every you want",
@@ -203,7 +211,7 @@ val Holiday= Lecture(
 
 val CSESaturday = LectureList(
     listOf(Holiday),
-    LocalDate.of(2024, 1, 29).dayOfWeek,
+    LocalDate.of(2024, 1, 6).dayOfWeek,
     "Computer Science and Engineering",
     6
 )
