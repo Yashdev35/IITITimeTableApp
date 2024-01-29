@@ -43,4 +43,5 @@ fun AppNavigation(
 fun PreviewAppNavigation(){
       LectureSchedule(listOfLecturesOfDay = CSEFriday, rememberNavController())
     //this is just a preview of the app navigation
+    //jai shree ram, jai shivray , jai shree ram
 }
