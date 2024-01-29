@@ -68,12 +68,7 @@ fun LunchBreakCard(
     startTime: String,
     endTime: String,
 ) {
-    Column(
-        modifier = Modifier
-            .fillMaxSize()
-            .padding(top = 4.dp),
-    ){
-        Card(
+    Card(
             modifier = Modifier
                 .fillMaxSize()
                 .padding(top = 8.dp, start = 8.dp, end = 8.dp),
@@ -88,16 +83,11 @@ fun LunchBreakCard(
                 Text(text = "Lunch Break! $startTime - $endTime", fontWeight = FontWeight.ExtraBold,fontSize = 15.sp)
             }
         }
-    }
 }
 
 @Composable
 fun EndGreetingCard() {
-   Column(
-       modifier = Modifier
-           .fillMaxSize()
-           .padding(top = 4.dp),
-   ) {
+
        Card(
            modifier = Modifier
                .fillMaxSize()
@@ -114,7 +104,7 @@ fun EndGreetingCard() {
            }
 
        }
-   }
+
 }
 
 @Composable
@@ -188,5 +178,5 @@ fun BranchSelectionButton(
 @Preview
 @Composable
 fun LectureCardPreview() {
-    AppBar("IITI Time Table",{})
+   LunchBreakCard("12:00","13:00")
 }

@@ -1,5 +1,6 @@
 package com.example.inductionprojectiititimetableapp.Screens
 
+import android.os.Parcelable
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
@@ -131,7 +132,6 @@ fun LectureSchedule(
         }
 
     }
-
 }
 
 @Preview(showBackground = true)
