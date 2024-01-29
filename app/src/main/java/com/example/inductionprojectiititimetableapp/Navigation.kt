@@ -42,4 +42,5 @@ fun AppNavigation(
 @Composable
 fun PreviewAppNavigation(){
       LectureSchedule(listOfLecturesOfDay = CSEFriday, rememberNavController())
+    //this is just a preview of the app navigation
 }
